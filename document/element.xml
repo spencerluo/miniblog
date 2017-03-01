@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PageObject>
+    <LoginPage>
+        <Username type="id" value="username"/>
+        <Password type="id" value="password"/>
+        <Submit type="id" value="loginbtn"/>
+    </LoginPage>
+    <HomePage>
+        <Edit type="xpath" value="//div[@class=['tables']/div[1]/div[3]/div/div[3]"/>
+    </HomePage>
+    <EditPage>
+        <Title type="class" value="b-title"/>
+        <Submit type="id" value="submitbtn" />
+    </EditPage>
+</PageObject>

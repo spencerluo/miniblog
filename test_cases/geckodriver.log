@@ -1,0 +1,8 @@
+1487431948318	geckodriver	INFO	Listening on 127.0.0.1:64122
+1487431950369	mozprofile::profile	INFO	Using profile path C:\Users\air\AppData\Local\Temp\rust_mozprofile.i7Nd4eKeps8Y
+1487431950375	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1487431950408	geckodriver::marionette	INFO	Connecting to Marionette on localhost:64128
+1487431951134	Marionette	INFO	Listening on port 64128
+js, line 287: NS_ERROR_FILE_ACCESS_DENIED: Component returned failure code: 0x80520015 (NS_ERROR_FILE_ACCESS_DENIED) [nsIPrefService.savePrefFile]
+1487431372830	Marionette	INFO	Listening on port 63573
+1487259463185	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error

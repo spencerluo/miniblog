@@ -1,0 +1,27 @@
+INFO:root:----------Login test start----------
+INFO:root:open browser [chrome]
+INFO:root:close all windows
+INFO:root:----------Login test end----------
+
+INFO:root:----------Login test start----------
+INFO:root:open browser [chrome]
+INFO:root:navigate to [http://study-miniblog-new.qa.netease.com/]
+INFO:root:send [spencer] to [Username] in [LoginPage]
+INFO:root:send [asdD1234] to [Password] in [LoginPage]
+INFO:root:click the [Submit] in [LoginPage]
+INFO:root:close all windows
+INFO:root:----------Login test end----------
+
+INFO:root:----------WriteBlog test start----------
+INFO:root:open browser [chrome]
+INFO:root:navigate to [http://study-miniblog-new.qa.netease.com/]
+INFO:root:send [spencer] to [Username] in [LoginPage]
+INFO:root:send [asdD1234] to [Password] in [LoginPage]
+INFO:root:click the [Submit] in [LoginPage]
+INFO:root:click the [Edit] in [HomePage]
+INFO:root:clear the [Title] in [EditPage]
+INFO:root:send [haha] to [Title] in [EditPage]
+INFO:root:click the [Submit] in [EditPage]
+INFO:root:close all windows
+INFO:root:----------WriteBlog test end----------
+
