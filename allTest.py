@@ -15,7 +15,7 @@ from utils.log import Log
 def createSuite():
     suite = unittest.TestSuite()
 
-    case_path = r'D:\project\wangyiyun\autotest\test_cases'
+    case_path = r'test_cases'
     discover = unittest.defaultTestLoader.discover(case_path)
 
     for test_suite in discover:
@@ -49,7 +49,7 @@ def run(browserName, username, password):
     login_module.password = password
     all_cases = createSuite()
     date = time.strftime('%Y%m%d_%H%M%S')
-    reportPath = r'\reports\%s_%s.html' % (date, browserName)
+    reportPath = r'reports\%s_%s.html' % (date, browserName)
     report = open(reportPath, 'wb')
     runner = HTMLTestRunner.HTMLTestRunner(report, title=u'mimi博客', description=u'%s浏览器测试结果' % browserName)
     runner.run(all_cases)
