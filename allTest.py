@@ -49,7 +49,7 @@ def run(browserName, username, password):
     login_module.password = password
     all_cases = createSuite()
     date = time.strftime('%Y%m%d_%H%M%S')
-    reportPath = r'D:\project\wangyiyun\autotest\reports\%s_%s.html' % (date, browserName)
+    reportPath = r'\reports\%s_%s.html' % (date, browserName)
     report = open(reportPath, 'wb')
     runner = HTMLTestRunner.HTMLTestRunner(report, title=u'mimi博客', description=u'%s浏览器测试结果' % browserName)
     runner.run(all_cases)

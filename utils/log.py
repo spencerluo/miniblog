@@ -7,7 +7,7 @@ class Log:
     def __init__(self, browser):
         date = time.strftime('%Y%m%d_%H%M%S')
         logging.basicConfig(level=logging.INFO,
-                            filename=r'd:\project\wangyiyun\autotest\logs\%s_%s.log' % (date, browser),
+                            filename=r'logs\%s_%s.log' % (date, browser),
                             filemode='w')
 
     @staticmethod
