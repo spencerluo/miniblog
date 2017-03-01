@@ -1,10 +1,10 @@
-1488376179324	geckodriver	INFO	Listening on 127.0.0.1:62786
-1488376181364	mozprofile::profile	INFO	Using profile path C:\Users\air\AppData\Local\Temp\rust_mozprofile.bybGAVBF0IqJ
-1488376181364	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
-1488376181380	geckodriver::marionette	INFO	Connecting to Marionette on localhost:62793
-1488376182071	Marionette	INFO	Listening on port 62793
-js, line 287: NS_ERROR_FILE_ACCESS_DENIED: Component returned failure code: 0x80520015 (NS_ERROR_FILE_ACCESS_DENIED) [nsIPrefService.savePrefFile]
-1487688876259	Marionette	INFO	Listening on port 60611
+1488380816150	geckodriver	INFO	Listening on 127.0.0.1:50490
+1488380818193	mozprofile::profile	INFO	Using profile path C:\Users\air\AppData\Local\Temp\rust_mozprofile.syPZks4jObdc
+1488380818193	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1488380818209	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50496
+1488380818864	Marionette	INFO	Listening on port 50496
+JavaScript error: resource://gre/components/SanityTest.js, line 65: NS_ERROR_FILE_ACCESS_DENIED: Component returned failure code: 0x80520015 (NS_ERROR_FILE_ACCESS_DENIED) [nsIPrefService.savePrefFile]
+
 Proxy instead
 console.warn: Asynchronous operation was aborted as selection changed.
 console.error: 

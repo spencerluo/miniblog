@@ -43,7 +43,6 @@ def sendMail(fileName):
 
 
 def run(browserName, username, password):
-    print u'开始运行测试'
     Log(browserName)
     keywords.browser = browserName
     login_module.username = username
@@ -56,7 +55,6 @@ def run(browserName, username, password):
     runner.run(all_cases)
     report.flush()
     # sendMail(reportPath)
-    print u'测试结束'
 
 
 def allRun():
