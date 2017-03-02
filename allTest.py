@@ -26,7 +26,7 @@ def createSuite():
 
 def sendMail(fileName):
     sender = '76421863@qq.com'
-    receiver = 'wcnmbwsw@hotmail.com'
+    receiver = '18516129357@163.com'
     server = 'smtp.qq.com'
     username = '76421863@qq.com'
     password = 'ljh68759058'
