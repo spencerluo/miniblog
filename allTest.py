@@ -54,7 +54,7 @@ def run(browserName, username, password):
     runner = HTMLTestRunner.HTMLTestRunner(report, title=u'mimi博客', description=u'%s浏览器测试结果' % browserName)
     runner.run(all_cases)
     report.flush()
-    # sendMail(reportPath)
+    sendMail(reportPath)
 
 
 def allRun():
